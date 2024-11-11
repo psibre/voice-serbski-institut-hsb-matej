@@ -8,6 +8,11 @@ Changelog
 
 - JTok dependency resolution
 
+### Changed
+
+- Upgraded language component to v0.2.1
+- Upgraded data to v0.2.1
+
 [v0.1.0-beta4] - 2024-05-15
 ---------------------------
 

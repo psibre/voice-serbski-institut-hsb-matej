@@ -25,7 +25,7 @@ version '0.1.0-SNAPSHOT'
 
 configurations.configureEach {
     resolutionStrategy {
-        force 'de.dfki.mary:marytts-lang-hsb:0.2.0'
+        force 'de.dfki.mary:marytts-lang-hsb:0.2.1'
     }
 }
 
@@ -47,7 +47,7 @@ def downloadDataTask = tasks.register('downloadData') {
     outputs.file flacFile
     outputs.file yamlFile
     doLast {
-        def baseUrl = 'https://github.com/marytts/serbski-institut-hsb-data/releases/download/v0.2.0'
+        def baseUrl = 'https://github.com/marytts/serbski-institut-hsb-data/releases/download/v0.2.1'
         download.run {
             src([
                     "$baseUrl/serbski-institut-hsb-data.flac",
